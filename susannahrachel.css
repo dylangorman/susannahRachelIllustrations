@@ -1,114 +1,99 @@
 
-
+/* background color and font for whole site */
 body {
     background: #f5d9df;
     font-family: "Nunito", sans-serif;
-
-}
-footer {
-    color: black;
-    font-family: "Nunuto", sans-serif;
-    color: rgb(100, 150, 133
-    )
-}
+    }
+/* all h2 headings above blurbs */
 .blurb h2 {
     color: #EA1C2C;
     font-weight: 100;
     font-size: 2.5rem;
-
-}
-.emailform {
-    font-family: "Nunito", sans-serif;
-    color:rgb(100, 150, 133);
-}
-
-form {
-    font-family: "Nunito";
-    font-size:  0.75rem;
-    font-weight: 100;
-    color:rgb(100, 150, 133);
-}
-
-a { 
-    color:rgb(100, 150, 133);
+    }
+/* color and size of hrefs on links page */
+a   { 
+    color: rgb(100, 150, 133);
     font-size: 2rem;
-}
+    }
+    
+/* buttons */
 .btn {
     font-size: 1rem;
     font-family: "Nunito";
     color: #f498b8;
-}
-
+    }
+/* all text in paragraphs on site */
 .blurb p {
     color: #f498b8;
     font-weight: 100;
     font-size: 1.125rem;
     line-height: 2;
-}
-
-/* #mainNavbar .nav-link:hover {
-    color:#EA1C2C;
-    transition: color 1s ease-in-out, width 2s, ease-in-out 1s; */
-
-/* } */
-.content {
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
+    }
+/* Nav Bar font size and weight */
 #mainNavbar {
     font-size: 1.5rem;
     font-weight: 100;
-}
-
+    }
+/* Nav Bar links font color and size */
 #mainNavbar .nav-link {
     color: white;
-    font-size: 2rem;
-}
+    font-size: 1rem;
+    }
 
+/* Nav Bar transistion color when hovered over */
 #mainNavbar .nav-link:hover{
-    color:#EA1C2C;
+    color: black;
     transition: color 1s ease-in-out, width 2s, ease-in-out 1s;
-    
-}
-
+    }
+/* Nav Bar Title "SusannahRachel" color and size */
 #mainNavbar .navbar-brand {
     color: #EA1C2C;
     font-size: 1.5rem;
-    
-
-}
+    }
+/* Nav Bar Title "SusannahRachel" tranisitions when hovered over  */
 #mainNavbar .navbar-brand:hover{
     color: black;
     transform: rotateY(360deg);
     transition: ease-in-out 3.25s;
-
-}
+    }
+/* home page "interractive logo" color and font size in initial state */
 #headingGroup h1{
     font-weight: 100;
     font-size: 2rem;
-    transition: margin-left 2s, color 1s ease-in-out, width 2s ease-in-out 1s;
-  
-}
+    }
+/* home page "interractive logo" color and font size when hovered over */
 #headingGroup :hover {
     color: rgb(0, 0, 0);
-    margin-left:100px;
-    
-}
+    margin-left:100px; 
+    transition: margin-left 2s, color 1s ease-in-out, width 2s ease-in-out 1s;  
+    }
+/* home page "interractive logo" color and font size of forward slashes in initial state */
 #headingGroup span {
     color:#EA1C2C;
     transition: color 1s ease-in-out, width 1s ease-in-out 1s;
-}
+    }
+/* home page "interractive logo" color and font size of forward slashes when hovered over */ 
 #headingGroup :hover span { 
     color: rgb(255, 255, 255);
-}
+    }
+/* transition style of navbar when scrolling */
 .navbar.scrolled {
     background: rgb(100, 150, 133);
     transition: background 500ms;
-}
-@media (max-width: 1200px) {
-    #headingGroup h1 {
-        font-weight: 100;
-        font-size: 2rem;
     }
-
+/* content of pages margins*/
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+/* copyright notice at footer */
+footer {
+    font-family: "Nunuto", sans-serif;
+    color: rgb(100, 150, 133)
+    }
+@media (max-width: 1000px) {
+    #headingGroup h1 {
+    font-weight: 100;
+    font-size: 2rem;
+    }
 }
