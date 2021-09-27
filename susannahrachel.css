@@ -1,16 +1,22 @@
+
+
 body {
     background: #f5d9df;
     font-family: "Nunito", sans-serif;
-}
 
+}
+footer {
+    color: black;
+    font-family: "Nunuto", sans-serif;
+    color: rgb(100, 150, 133
+    )
+}
 .blurb h2 {
     color: #EA1C2C;
     font-weight: 100;
     font-size: 2.5rem;
 
 }
-
-
 .emailform {
     font-family: "Nunito", sans-serif;
     color:rgb(100, 150, 133);
@@ -23,7 +29,7 @@ form {
     color:rgb(100, 150, 133);
 }
 
-a{
+a { 
     color:rgb(100, 150, 133);
     font-size: 2rem;
 }
@@ -39,6 +45,12 @@ a{
     font-size: 1.125rem;
     line-height: 2;
 }
+
+/* #mainNavbar .nav-link:hover {
+    color:#EA1C2C;
+    transition: color 1s ease-in-out, width 2s, ease-in-out 1s; */
+
+/* } */
 .content {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -46,29 +58,49 @@ a{
 #mainNavbar {
     font-size: 1.5rem;
     font-weight: 100;
-
 }
 
 #mainNavbar .nav-link {
     color: white;
+    font-size: 2rem;
 }
 
 #mainNavbar .nav-link:hover{
     color:#EA1C2C;
+    transition: color 1s ease-in-out, width 2s, ease-in-out 1s;
+    
 }
+
 #mainNavbar .navbar-brand {
     color: #EA1C2C;
     font-size: 1.5rem;
-}
+    
 
-#headingGroup span {
-    color:#EA1C2C
 }
-#headingGroup h1 {
+#mainNavbar .navbar-brand:hover{
+    color: black;
+    transform: rotateY(360deg);
+    transition: ease-in-out 3.25s;
+
+}
+#headingGroup h1{
     font-weight: 100;
     font-size: 2rem;
+    transition: margin-left 2s, color 1s ease-in-out, width 2s ease-in-out 1s;
+  
 }
-
+#headingGroup :hover {
+    color: rgb(0, 0, 0);
+    margin-left:100px;
+    
+}
+#headingGroup span {
+    color:#EA1C2C;
+    transition: color 1s ease-in-out, width 1s ease-in-out 1s;
+}
+#headingGroup :hover span { 
+    color: rgb(255, 255, 255);
+}
 .navbar.scrolled {
     background: rgb(100, 150, 133);
     transition: background 500ms;
@@ -78,7 +110,5 @@ a{
         font-weight: 100;
         font-size: 2rem;
     }
+
 }
-
-
-
