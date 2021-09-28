@@ -11,10 +11,10 @@ body {
     font-size: 2.5rem;
     }
 /* color and size of hrefs on links page */
-a   { 
+/* a   { 
     color: rgb(100, 150, 133);
     font-size: 2rem;
-    }
+    } */
     
 /* buttons */
 .btn {
@@ -88,9 +88,10 @@ a   {
 }
 /* copyright notice at footer */
 footer {
-    font-family: "Nunuto", sans-serif;
+    font-family: "Nunito", sans-serif;
     color: rgb(100, 150, 133)
     }
+/* to help when site is resized */
 @media (max-width: 1000px) {
     #headingGroup h1 {
     font-weight: 100;
