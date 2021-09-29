@@ -63,7 +63,7 @@ body {
 /* home page "interractive logo" color and font size in initial state */
 #headingGroup h1{
     font-weight: 100;
-    font-size: 6rem;
+    font-size: 5rem;
     transition: margin-left 3s, color 2.5s ease-in, width 2s; 
     }
 /* home page "interractive logo" color and font size when hovered over */
@@ -85,15 +85,6 @@ body {
     color: rgb(255, 255, 255);
     margin-left: 100px;
     }
-/* #headingGroup:hover h1 {
-    margin-left: 500px;}
-
-
-
-
-
-
-
 /* transition style of navbar when scrolling */
 .navbar.scrolled {
     background: rgb(100, 150, 133);
@@ -104,15 +95,66 @@ body {
     margin-top: 100px;
     margin-bottom: 100px;
 }
+
+
+    
+/* to help when site is resized */
+/* @media (max-width: 990px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 2rem; */
+    /* } */
+@media screen 
+    and (min-width: 1201px){
+        #headingGroup h1 {
+            font-weight: 100;
+            font-size: 5rem;
+  }  
+}
+  @media screen
+  and (min-width: 951px) 
+  and (max-width: 1200px){
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 4rem;
+    }
+}
+
+@media screen 
+  and (min-width: 705px)
+  and (max-width: 950px){
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
+@media screen 
+  and (min-width: 451px) 
+  and (max-width: 704px){
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 2rem;
+    }   
+}
+@media screen 
+  and (max-width: 450px){
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 1rem;
+    }   
+
+}
+
+/* 
+@media screen and (max-width:480px){
+    #headingGroup h1 {
+        font-size: 1.5rem;
+    }
+
+} */
 /* copyright notice at footer */
 footer {
     font-family: "Nunito", sans-serif;
-    color: rgb(100, 150, 133)
-    }
-/* to help when site is resized */
-@media (max-width: 1000px) {
-    #headingGroup h1 {
-    font-weight: 100;
-    font-size: 2rem;
-    }
+    color: rgb(100, 150, 133);
+    position: absolute;
 }
