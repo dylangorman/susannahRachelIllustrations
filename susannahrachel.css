@@ -99,11 +99,7 @@ body {
 
     
 /* to help when site is resized */
-/* @media (max-width: 990px) {
-    #headingGroup h1 {
-        font-weight: 100;
-        font-size: 2rem; */
-    /* } */
+
 @media screen 
     and (min-width: 1201px){
         #headingGroup h1 {
@@ -145,13 +141,6 @@ body {
 
 }
 
-/* 
-@media screen and (max-width:480px){
-    #headingGroup h1 {
-        font-size: 1.5rem;
-    }
-
-} */
 /* copyright notice at footer */
 footer {
     font-family: "Nunito", sans-serif;
