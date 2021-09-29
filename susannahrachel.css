@@ -56,26 +56,44 @@ body {
     transform: rotateY(360deg);
     transition: ease-in-out 3.25s;
     }
+
+
+
+
 /* home page "interractive logo" color and font size in initial state */
 #headingGroup h1{
     font-weight: 100;
-    font-size: 2rem;
+    font-size: 6rem;
+    transition: margin-left 3s, color 2.5s ease-in, width 2s; 
     }
 /* home page "interractive logo" color and font size when hovered over */
-#headingGroup :hover {
+#headingGroup h1:hover {
     color: rgb(0, 0, 0);
     margin-left:100px; 
-    transition: margin-left 2s, color 1s ease-in-out, width 2s ease-in-out 1s;  
-    }
+    
+}
 /* home page "interractive logo" color and font size of forward slashes in initial state */
+
+
+
 #headingGroup span {
     color:#EA1C2C;
-    transition: color 1s ease-in-out, width 1s ease-in-out 1s;
+    transition: margin-left 3s, color 2s ease-in, width 2s;
     }
 /* home page "interractive logo" color and font size of forward slashes when hovered over */ 
 #headingGroup :hover span { 
     color: rgb(255, 255, 255);
+    margin-left: 100px;
     }
+/* #headingGroup:hover h1 {
+    margin-left: 500px;}
+
+
+
+
+
+
+
 /* transition style of navbar when scrolling */
 .navbar.scrolled {
     background: rgb(100, 150, 133);
