@@ -14,8 +14,7 @@ body {
 /* a   { 
     color: rgb(100, 150, 133);
     font-size: 2rem;
-    } */
-    
+    } */  
 /* buttons */
 .btn {
     font-size: 1rem;
@@ -56,26 +55,18 @@ body {
     transform: rotateY(360deg);
     transition: ease-in-out 3.25s;
     }
-
-
-
-
 /* home page "interractive logo" color and font size in initial state */
 #headingGroup h1{
     font-weight: 100;
     font-size: 5rem;
-    transition: margin-left 3s, color 2.5s ease-in, width 2s; 
+    transition: margin-left 4s, color 2s ease-in, width 2s; 
     }
 /* home page "interractive logo" color and font size when hovered over */
 #headingGroup h1:hover {
     color: rgb(0, 0, 0);
-    margin-left:100px; 
-    
+    margin-left:50px; 
 }
 /* home page "interractive logo" color and font size of forward slashes in initial state */
-
-
-
 #headingGroup span {
     color:#EA1C2C;
     transition: margin-left 3s, color 2s ease-in, width 2s;
@@ -83,7 +74,7 @@ body {
 /* home page "interractive logo" color and font size of forward slashes when hovered over */ 
 #headingGroup :hover span { 
     color: rgb(255, 255, 255);
-    margin-left: 100px;
+    margin-left: 10px;
     }
 /* transition style of navbar when scrolling */
 .navbar.scrolled {
@@ -95,9 +86,6 @@ body {
     margin-top: 100px;
     margin-bottom: 100px;
 }
-
-
-    
 /* to help when site is resized */
 
 @media screen 
